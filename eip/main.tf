@@ -1,4 +1,4 @@
-resource "aws_eip" {
+resource "aws_eip" "elasticeip" {
     instance = aws_instance.ec2.id
 }
 
