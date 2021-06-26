@@ -1,13 +1,18 @@
 for each folder containing main.tf, run commands:
-
 $ terraform init
 $ terraform plan
 $ terraform apply
 $ terraform destroy
 
 /challenge folder is the most exciting one, compiling features from other folters in a nice solution.
+
 /backend create a state file in s3 bucket
+
 /vars gives a different number of instances depending on the environment variable, to see this use: 
 $ terraform init
 $ terraform plan -var-file=test.tfvars
 $ terraform plan -var-file=prod.tfvars
+
+/import allows terraform to manage instances manually created using the console or simply not created in terraform
+$ terraform init
+$ terraform import aws_vpc.myvpc vpc-03db7c242cd8c8929
