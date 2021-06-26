@@ -1,0 +1,8 @@
+for each folder containing main.tf, run commands:
+
+$ terraform init
+$ terraform plan
+$ terraform apply
+$ terraform destroy
+
+/challenge folder is the most exciting one, compiling features from other folters in a nice solution.
