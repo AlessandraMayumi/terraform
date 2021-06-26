@@ -6,3 +6,4 @@ $ terraform apply
 $ terraform destroy
 
 /challenge folder is the most exciting one, compiling features from other folters in a nice solution.
+/backend create a state file in s3 bucket
